@@ -21,5 +21,7 @@ public class TestBase {
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
 		driver.manage().deleteAllCookies();
 		driver.get(ReadData.readPropertyFile("url"));
+		
+		//I already push the code to git repo
 	}
 }
